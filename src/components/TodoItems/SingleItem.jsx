@@ -32,7 +32,7 @@ const SingleItem = ({
             label={status.label}
             value={status.key}
             checked={state === status.key}
-            onChange={() => onToggle(id, status.key)}
+            onChange={() => onToggle(status.key)}
             className="mb-2"
           />
         ))}
